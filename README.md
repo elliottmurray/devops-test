@@ -15,9 +15,9 @@ I have assumed docker is installed. I ran it with node 12 locally. I managed thi
 
 
 ## Running this web application
- This is a NodeJS application:	This is a NodeJS application:
+This is a NodeJS application:
 
-- `npm test` runs the application tests	- `npm test` runs the application tests
+- `npm test` runs the application tests
 - `npm start` starts the http server
 
 
@@ -41,10 +41,7 @@ gcloud container clusters create buildit-cluster
 ```
 
 After you fork, push and merge a PR you should be able to run
-```
+```bash
 curl `kubectl describe ing my-ingress | grep 'Address:' | awk '{ print $2 }'`
+# should output message with hostname
 ``` to see the output
-
-
-
-
