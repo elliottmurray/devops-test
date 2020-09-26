@@ -10,8 +10,8 @@ Github actions are very lightweight and has a great market place however I found
 # Setup
 I have assumed docker is installed. I ran it with node 12 locally. I managed this with direnv/nvm but would probably use .node_version ongoing. I have used github actions and you will need to set up some secrets/config so will have to re-fork this repo to get a deployment working. The secrets you will need to setup:
 
-GKE_PROJECT
-GKE_SA_KEY # a service account key from IAM & Admin -> Service Accounts
+- GKE_PROJECT
+- GKE_SA_KEY # a service account key from IAM & Admin -> Service Accounts
 
 
 ## Running this web application
