@@ -44,4 +44,6 @@ After you fork, push and merge a PR you should be able to run
 ```bash
 curl `kubectl describe ing my-ingress | grep 'Address:' | awk '{ print $2 }'`
 # should output message with hostname
-``` to see the output
+```
+
+to see the output
